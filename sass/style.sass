@@ -130,6 +130,64 @@ html,body
     padding-top: 10px
   .skill
     width: 800px
+  .skills
+    width: 50vw
+    height: auto
+    padding: 15px
+    padding-top: 0px
+    padding-bottom: 0px
+
+    // background-color: #eeee
+    display: flex
+    justify-content: center
+    align-items: flex-start
+    flex-direction: row
+    flex-wrap: wrap
+    .skill-form
+      display: flex
+      justify-content: space-between
+      align-items: flex-start
+      flex-direction: row
+      margin: 20px
+      // height: 300px
+    .items-item
+      padding-top: 20px
+      padding-left: 20px
+    .items
+      padding: 12px
+      text-align: left
+    .cirlces
+      display: flex
+      justify-content: flex-start
+      align-items: flex-start
+      flex-direction: row
+      .circle
+        width: 10px
+        height: 10px
+        background-color: $color_blue
+        border-radius: 50%
+        margin-left: 20px
+      .base
+        background-color: $color_base
+
+    .type
+      color: black
+      text-align: center
+      font-size: 1.3rem
+      padding-top: 20px
+      // writing-mode: vertical-lr
+    .t2
+      font-size: 1.8rem
+
+    .t3
+      font-size: 2rem
+      padding-top: 10px
+    .t4
+      font-size: 2rem
+      padding-top: 10px
+
+
+
   .cls-20,.cls-24,.cls-28,.cls-29
     transition: 0.5s
     &:hover
@@ -161,6 +219,8 @@ html,body
   justify-content: center
   align-items: flex-start
   flex-direction: column
+  padding-left: 35px
+  padding-right: 35px
 .before-fifth
   display: flex
   justify-content: center
@@ -255,6 +315,18 @@ html,body
     margin-top: 8px
     margin-bottom: 8px
     height: 80%
+  .footer
+    display: none
+  .skills,
+    font-size: 0.8rem !important
+  .type
+    font-size: 1.2rem !important
+  .t2
+    font-size: 1.6rem !important
+  .t3
+    font-size: 1.8rem !important
+  .t4
+    font-size: 2rem !important
 
 @media only screen and (min-width: 0px) and (max-width: 400px)
   .skill
@@ -300,3 +372,5 @@ html,body
     margin: 15px
   .footer
     font-size: 0.7rem
+  .footer
+    display: none
